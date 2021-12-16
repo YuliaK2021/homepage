@@ -27,7 +27,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding:30px 0;
-    border-bottom: 3px solid var(--border-color); 
+    
 }
 
 .fv {
@@ -159,7 +159,9 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
-
+.skills {
+    padding: 20px 0;
+}
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
@@ -170,6 +172,7 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
     border-bottom: 3px solid var(--border-color);
+    padding-bottom: 15px;
 }
 
 .experiences {
