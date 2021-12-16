@@ -26,6 +26,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding:30px 0;
+    
 }
 
 .fv {
@@ -64,7 +66,7 @@ body {
     }
 
     .experiences {
-        margin-right: 0;
+        margin-top: 20px;
     }
 }
 .contact-info__header,
@@ -133,10 +135,12 @@ body {
   .intro {
     display: flex;
     justify-content: start;
+    border-bottom: 3px solid var(--border-color);
+    padding: 30px 0;
 }
 
 .intro__icon-wrapper {
-    margin-right: 30px;
+    margin-right: 10px;
     width: 30px;
     display: flex;
     justify-content: center;
@@ -155,7 +159,9 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
-
+.skills {
+    padding: 20px 0;
+}
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
@@ -165,6 +171,8 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    border-bottom: 3px solid var(--border-color);
+    padding-bottom: 15px;
 }
 
 .experiences {
@@ -186,9 +194,7 @@ body {
 }
 
 .experiences__company-header-name {
-    color: var(--primary-text-color);
-    text-decoration-color: var(--text-decoration-color);
-    text-decoration-line: underline;
+    color: var(--primary-text-color);    
     text-align: left;
     margin-bottom: 20px;
 }
@@ -209,6 +215,7 @@ body {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
+    padding: 20px;
 }
 
 .experiences__company-project-responsibilities {
@@ -249,10 +256,11 @@ body {
 
 .additional-info__languages {
     margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .additional-info__languages-header {
-    color: var(--secondary-text-color);
+    color: black;
     text-align: left;
     margin-bottom: 20px;
 }
